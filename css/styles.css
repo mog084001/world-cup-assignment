@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans&family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header part */
+
+.brazil-team
+{
+    margin: 50px 120px 120px 120px;
+}
+
+.brazil
+{
+    display: flex;
+    width: 80 px;
+    background-color: #161616;
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+
+.team
+{
+    width: 100%;
+    color: white;
+    margin: 10px 20px;
+}
+
+.team h1
+{
+    font-size: 50px;
+}
+
+.team p
+{
+    font-size: 16px;
+}
+
+.team button
+{
+    width: 20%;
+    height: 10%;
+    background: #DD0000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+/* section part */
+.details-info
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.players
+{
+    display: flex;
+}
+
+/* footer */
+
+.goal
+{
+    background: #161616;
+    padding-bottom: 20px 30px;
+}
+
+hr
+{
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-detail
+{
+    padding: 20px 30px;
+
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    margin: 10px 20px;
+}
+
+.info-detail .contact
+{
+    margin-right: 50px;
+}
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    color: #B9B9B9;
+    font-size: 16px;
+
+}
+
+.contact p
+{
+    margin-right: 20px;
+}
+
+.social
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info-detail .social .social-media
+{
+    align-items: center;
+}
